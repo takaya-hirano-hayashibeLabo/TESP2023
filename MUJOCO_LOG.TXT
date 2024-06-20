@@ -1129,3 +1129,9 @@ WARNING: Nan, Inf or huge value in QACC at DOF 8. The simulation is unstable. Ti
 Thu Jun 20 14:53:34 2024
 WARNING: Nan, Inf or huge value in QACC at DOF 8. The simulation is unstable. Time = 0.0400.
 
+Thu Jun 20 15:20:29 2024
+ERROR: Could not allocate memory
+
+Thu Jun 20 15:49:23 2024
+ERROR: mjv_updateCamera: track body id is outside valid range
+
