@@ -18,27 +18,24 @@ if __name__ == "__main__":
     data = mujoco.MjData(model)
     
     with mujoco.viewer.launch_passive(model, data) as viewer:
-    # Close the viewer automatically after 30 wall-seconds.
 
         # setting camera
-        
         viewer.cam.type = 1 # 0:free 1:track 2:fixed
         viewer.cam.trackbodyid = 0
         viewer.cam.distance = 2
                     
         mujoco.mj_step(model, data)
         viewer.sync()
-
         time.sleep(2)
         
         
-    
         start = time.time()
         
         while viewer.is_running():
             step_start = time.time()
             t = step_start - start
             
+            # position control
             data.ctrl[:] = Target_q(t)
             
             # get joint angle
