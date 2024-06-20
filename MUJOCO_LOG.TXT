@@ -1135,3 +1135,9 @@ ERROR: Could not allocate memory
 Thu Jun 20 15:49:23 2024
 ERROR: mjv_updateCamera: track body id is outside valid range
 
+Thu Jun 20 16:14:36 2024
+ERROR: mjv_updateSceneState: m->nu changed
+
+Thu Jun 20 16:15:08 2024
+ERROR: mjv_updateSceneState: m->nu changed
+
