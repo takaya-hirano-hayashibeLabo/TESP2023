@@ -1141,3 +1141,36 @@ ERROR: mjv_updateSceneState: m->nu changed
 Thu Jun 20 16:15:08 2024
 ERROR: mjv_updateSceneState: m->nu changed
 
+Thu Jun 20 16:57:35 2024
+ERROR: mjv_updateSceneState: m->nu changed
+
+Thu Jun 20 16:57:55 2024
+WARNING: Nan, Inf or huge value in QACC at DOF 3. The simulation is unstable. Time = 2.2600.
+
+Thu Jun 20 16:57:57 2024
+ERROR: mjv_updateSceneState: m->nu changed
+
+Thu Jun 20 16:58:17 2024
+ERROR: mjv_updateSceneState: m->nu changed
+
+Thu Jun 20 16:58:34 2024
+ERROR: mjv_updateSceneState: m->nu changed
+
+Thu Jun 20 16:59:52 2024
+ERROR: mjv_updateSceneState: m->nu changed
+
+Thu Jun 20 17:00:18 2024
+ERROR: mjv_updateSceneState: m->nu changed
+
+Thu Jun 20 17:00:44 2024
+ERROR: mjv_updateSceneState: m->nu changed
+
+Thu Jun 20 17:01:06 2024
+ERROR: mjv_updateSceneState: m->nu changed
+
+Thu Jun 20 17:01:49 2024
+ERROR: mjv_updateSceneState: m->nu changed
+
+Thu Jun 20 17:02:18 2024
+ERROR: mjv_updateSceneState: m->nu changed
+

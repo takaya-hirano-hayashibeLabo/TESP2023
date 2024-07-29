@@ -1,6 +1,11 @@
 # 2. snake sim
 mujocoを使ってヘビロボットをシミュレーション上で動かすフェーズ
 
+## ライブラリのインストール
+~~~
+pip insatll mujoco
+~~~
+
 ## ヘビロボットの動かし方
 
 ```
@@ -15,3 +20,4 @@ data.ctrl[:] = Target_q(t)
 print(data.qpos[:])
 print(data.qvel[:])
 ```
+

@@ -4,11 +4,16 @@ import mujoco.viewer
 import os
 import time
 
+#>> いじるのはこの関数の部分 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+# 出力としてヘビの目標関節角度を返すようにする
 def Target_q(t):
-    omega = 3
-    amplitude = 0.3
-    target_q = np.array([amplitude * np.sin(omega * t + np.pi / 4 * i) for i in range(12)])
+    omega = 2
+    amplitude = 1.0
+    target_q = np.array([amplitude * np.sin(omega * t + np.pi / 6 * i) for i in range(12)])
     return target_q
+#<< いじるのはこの関数の部分 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
 
 if __name__ == "__main__":
     

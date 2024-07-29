@@ -4,20 +4,26 @@ mediapipeは、パソコンのカメラを使って、骨格モデルを認識�
 顔の動きや、手の関節、体の骨格などが検出できる  
 
 ## 環境設定
+
+### anacondaで仮想環境を作る場合
+~~~
+conda create -n tesp-env python=3.10
+~~~
+
+### ライブラリのインストール
 requirementsか直pipで必要なライブラリをインストールする  
 python3.10で動作確認済み  
 (※3.6以前はおそらく動かないので、3.7以降にしましょう)
 
-### requirementsを使う場合
+#### requirementsを使う場合
 ~~~
 pip install -r 1.mediapipe/requirements.txt
 ~~~
 
-### 直pipの場合
+#### 直pipの場合
 ~~~
 pip install  opencv-python==4.10.0.84 mediapipe==0.10.14
 ~~~
-
 
 ## テストプログラム
 `test_mediapipe.py`は一番シンプルなサンプルコード  
