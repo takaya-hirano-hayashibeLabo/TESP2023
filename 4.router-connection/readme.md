@@ -45,6 +45,9 @@
 ##### 手順
 1. configファイルを開く  
    ターミナル上で`vim /etc/dhcpcd.conf`を入力する  
+   ~~~bash
+   vim /etc/dhcpcd.conf
+   ~~~
    これは, `vim`エディタを使って, `/etc/dhcpcd.conf`を編集するためのコマンド.  
    vimの使い方については[こちら](#vim-基本操作).  
 1. configファイルの編集  
@@ -55,6 +58,9 @@
     <figure><img src="static/config_after.jpg" width=400 alt="編集後"><figcaption>編集後</figcaption></figure>
 1. networkシステムの再起動  
    ターミナル上で`sudo systemctl restart networking`を入力
+   ~~~bash
+   sudo systemctl restart networking
+   ~~~
 
 これで, ラズパイ側の設定の変更と反映が完了.  
 このラズパイを`ASUS_A8_5G`に接続したときのIPアドレスが`192.168.1.207`に固定されるようになった.

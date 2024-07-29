@@ -36,6 +36,9 @@ To access the Raspberry Pi with a fixed IP address, you need to update the confi
 ##### Steps
 1. Open the config file  
    Enter `vim /etc/dhcpcd.conf` in the terminal. This command uses the `vim` editor to edit the `/etc/dhcpcd.conf` file. For how to use `vim`, see [here](#vim-basic-operations).
+   ~~~bash
+   vim /etc/dhcpcd.conf
+   ~~~
 2. Edit the config file  
    Go to the bottom of the file and do the following:
    - Comment out the 4 lines under `When connecting 'HayashibeLabWifi'` (add # at the beginning)
@@ -44,6 +47,9 @@ To access the Raspberry Pi with a fixed IP address, you need to update the confi
    <figure><img src="static/config_after.jpg" width=400 alt="After Edit"><figcaption>After Edit</figcaption></figure>
 3. Restart the network system  
    Enter `sudo systemctl restart networking` in the terminal.
+   ~~~bash
+   sudo systemctl restart networking
+   ~~~
 
 Now, the Raspberry Pi is set to have a fixed IP address `192.168.1.207` when connected to `ASUS_A8_5G`.
 
